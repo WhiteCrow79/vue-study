@@ -24,6 +24,10 @@ export default new VueRouter({
 			path: '/signup',
 			component: () => import('@/views/SignupPage.vue'),
 		},
+		{
+			path: '/add',
+			component: () => import('@/views/PostAddPage.vue'),
+		},
 		//콜백
 		{
 			path: '*',
